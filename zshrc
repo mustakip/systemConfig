@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/mustakip/.oh-my-zsh"
+export ZSH="/Users/in-mustakip/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -109,7 +109,3 @@ alias rd="rmdir"
 alias mf="mocha --reporter landing"
 alias t="tree"
 alias mocha="nyc -r html mocha --recursive"
-export PATH="/usr/local/share/miniconda3/bin:$PATH"
-source /usr/local/share/miniconda3/etc/profile.d/conda.sh
-export PATH="/usr/local/share/torch/install/bin:$PATH"
-source /usr/local/share/torch/install/bin/torch-activate
